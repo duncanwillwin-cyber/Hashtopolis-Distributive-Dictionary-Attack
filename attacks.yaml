@@ -1,0 +1,5 @@
+# attacks.yaml
+- name: "wordlist+rules"
+  args: ["-m","0","sample_hashes/md5.txt","sample_hashes/wordlist.txt","-r","rules/best64.rule"]
+- name: "mask-lower-digit"
+  args: ["-m","0","sample_hashes/md5.txt","-a","3","?l?l?l?l?d?d?d?d"]
