@@ -1,0 +1,9 @@
+[project]
+name = "adaptive-hashcat-orch"
+version = "0.1.0"
+dependencies = [
+  "aiohttp",
+  "requests",
+  "python-dotenv",
+  "watchdog",
+]
